@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Autoflower Anbau Anleitung</title>
+    <style>
+        /* Grundlegendes Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        /* Standard Voraussetzungen Box */
+        .overview {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .overview h3 {
+            color: #3498db;
+            font-size: 1.2em;
+        }
+
+        .overview p {
+            margin: 10px 0;
+            font-size: 1em;
+            color: #555;
+        }
+
+        /* Style für die Akkordeon-Elemente */
+        .accordion {
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            text-align: left;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+
+        .accordion:hover {
+            background-color: #ecf0f1;
+        }
+
+        .panel {
+            display: none;
+            padding: 10px;
+            background-color: #f4f6f7;
+            border-left: 3px solid #3498db;
+        }
+
+        /* Einheitliche Bildgröße */
+        .panel img {
+            max-width: 500px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+
+        .image-section {
+            margin-top: 10px;
+        }
+
+        .image-section h4 {
+            font-size: 1.1em;
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+        /* Styling des Datei-Upload-Buttons */
+        .file-input-container {
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            font-size: 1em;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+
+        .file-input-container input[type="file"] {
+            position: absolute;
+            top: 0;
+            right: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .file-input-btn {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .file-input-btn:hover {
+            background-color: #2980b9;
+        }
+
+        footer {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1em;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Abstand am unteren Rand */
+        section {
+            margin-bottom: 100px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .overview {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            .accordion {
+                font-size: 1em;
+            }
+
+            .image-section img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Autoflower Anbau Anleitung
+</header>
+
+<!-- Standard Voraussetzungen Box -->
+<div class="overview">
+    <h3>Standard Voraussetzungen</h3>
+    <p><strong>Topfgröße:</strong> 5-Liter-Topf</p>
+    <p><strong>Lichtzyklus:</strong> 18 Stunden Licht / 6 Stunden Dunkelheit (18/6) während des gesamten Wachstums</p>
+    <p><strong>Abstand zur Lampe:</strong> 50-60 cm zu Beginn, später verringern auf 40-50 cm</p>
+</div>
+
+<!-- Abschnitt: Woche 1-2 -->
+<section>
+    <h2>Woche 1-2: Keimung & Wachstumsbeginn</h2>
+
+    <!-- Tag 1-7 -->
+    <div class="accordion">
+        <strong>Tag 1-7: Keimung</strong>
+    </div>
+    <div class="panel">
+        <p><strong>Wasser:</strong> 50–100 ml pH-reguliertes Wasser</p>
+        <p><strong>Dünger:</strong> Kein Dünger</p>
+        <p><strong>Lichtzyklus:</strong> 18 Stunden Licht / 6 Stunden Dunkelheit</p>
+        <p><strong>Abstand zur Lampe:</strong> 50-60 cm</p>
+        <p><strong>Beachten:</strong> Achte darauf, dass der Boden gleichmäßig feucht bleibt, aber nicht zu nass. Die Keimung kann je nach Samen 1-7 Tage dauern.</p>
+        <div class="image-section">
+            <h4>Aktueller Stand</h4>
+            <div class="file-input-container">
+                <button class="file-input-btn">Bild auswählen</button>
+                <input type="file" accept="image/*" onchange="displayImage(event, 'image1')">
+            </div>
+            <img id="image1" src="" alt="Aktueller Stand Tag 1-7">
+        </div>
+    </div>
+
+    <!-- Tag 8-14 -->
+    <div class="accordion">
+        <strong>Tag 8-14: Wachstumsbeginn</strong>
+    </div>
+    <div class="panel">
+        <p><strong>Wasser:</strong> 100–150 ml pH-reguliertes Wasser</p>
+        <p><strong>Dünger:</strong> Kein Dünger</p>
+        <p><strong>Lichtzyklus:</strong> 18 Stunden Licht / 6 Stunden Dunkelheit</p>
+        <p><strong>Abstand zur Lampe:</strong> 50-60 cm</p>
+        <p><strong>Beachten:</strong> Beginne mit der Beobachtung des ersten Wachstums, die Pflanze sollte beginnen, kleine Blätter zu entwickeln.</p>
+        <div class="image-section">
+            <h4>Aktueller Stand</h4>
+            <div class="file-input-container">
+                <button class="file-input-btn">Bild auswählen</button>
+                <input type="file" accept="image/*" onchange="displayImage(event, 'image2')">
+            </div>
+            <img id="image2" src="" alt="Aktueller Stand Tag 8-14">
+        </div>
+    </div>
+</section>
+
+<!-- Weitere Tage (Beispiel für Tag 15 bis Tag 42) -->
+<section>
+    <h2>Weitere Tage: Vegetatives Wachstum, Blüte und Ernte</h2>
+
+    <!-- Tag 15 -->
+    <div class="accordion">
+        <strong>Tag 15: Start Bio-Grow</strong>
+    </div>
+    <div class="panel">
+        <p><strong>Wasser:</strong> 150 ml pH-reguliertes Wasser</p>
+        <p><strong>Dünger:</strong> 1 ml Bio-Grow</p>
+        <p><strong>Lichtzyklus:</strong> 18 Stunden Licht / 6 Stunden Dunkelheit</p>
+        <p><strong>Abstand zur Lampe:</strong> 50-60 cm</p>
+        <p><strong>Beachten:</strong> Jetzt beginnst du mit der Düngung. Achte darauf, die Pflanze regelmäßig zu gießen, ohne dass der Boden zu nass wird.</p>
+        <div class="image-section">
+            <h4>Aktueller Stand</h4>
+            <div class="file-input-container">
+                <button class="file-input-btn">Bild auswählen</button>
+                <input type="file" accept="image/*" onchange="displayImage(event, 'image3')">
+            </div>
+            <img id="image3" src="" alt="Aktueller Stand Tag 15">
+        </div>
+    </div>
+
+    <!-- Tag 16 -->
+    <div class="accordion">
+        <strong>Tag 16: Weiteres Wachstum</strong>
+    </div>
+    <div class="panel">
+        <p><strong>Wasser:</strong> 150 ml pH-reguliertes Wasser</p>
+        <p><strong>Dünger:</strong> 1 ml Bio-Grow</p>
+        <p><strong>Lichtzyklus:</strong> 18 Stunden Licht / 6 Stunden Dunkelheit</p>
+        <p><strong>Abstand zur Lampe:</strong> 50-60 cm</p>
+        <p><strong>Beachten:</strong> Achte auf eine gesunde Blattentwicklung und überprüfe auf erste Anzeichen von Mangelerscheinungen.</p>
+        <div class="image-section">
+            <h4>Aktueller Stand</h4>
+            <div class="file-input-container">
+                <button class="file-input-btn">Bild auswählen</button>
+                <input type="file" accept="image/*" onchange="displayImage(event, 'image4')">
+            </div>
+            <img id="image4" src="" alt="Aktueller Stand Tag 16">
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Autoflower Anbau Anleitung. Alle Rechte vorbehalten.</p>
+</footer>
+
+<script>
+    function displayImage(event, imageId) {
+        var reader = new FileReader();
+        reader.onload = function(){
+            document.getElementById(imageId).src = reader.result;
+        };
+        reader.readAsDataURL(event.target.files[0]);
+    }
+
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
